@@ -94,7 +94,7 @@ export default function Home() {
           {startResponse?.loginType === "password" ? "Login" : "Continue"}
         </button>
 
-        {(startResponse?.loginType === "idp" || startResponse?.identityProviders.length) && (
+        {(startResponse?.loginType === "idp" || !!startResponse?.identityProviders.length) && (
           <div className="border-b mt-3 mb-6 border-neutral-400" />
         )}
 
