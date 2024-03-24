@@ -1,7 +1,7 @@
-import type {Metadata} from "next"
+import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Login | MMISP OIDC Demo",
+  title: "Dashboard | MMISP OIDC Demo",
 }
 
 export default function Layout({
