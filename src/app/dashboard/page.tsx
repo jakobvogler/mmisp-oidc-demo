@@ -32,7 +32,7 @@ export default function Dashboard() {
   }, [])
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-slate-100">
+    <div className="h-screen w-screen flex items-center justify-center bg-[#dee9f4]">
       <div className="relative px-12 pt-16 pb-28 w-[30vw] rounded-lg border-neutral-400 border bg-white">
         <h1 className="text-lg font-bold">User</h1>
         <Divider />

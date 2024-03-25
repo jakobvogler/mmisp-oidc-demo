@@ -62,7 +62,7 @@ export default function Home() {
   }
 
   return (
-    <main className="absolute min-h-screen w-screen bg-slate-100 items-center justify-center">
+    <main className="absolute min-h-screen w-screen bg-[#dee9f4] items-center justify-center">
       <div className="relative flex flex-col justify-center mx-[38vw] my-[20vh] px-12 py-16 rounded-lg border-neutral-400 border bg-white">
         <h1 className="text-3xl font-bold mb-12 w-full text-center">MMISP OIDC Demo</h1>
 
